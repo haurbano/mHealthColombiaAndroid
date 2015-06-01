@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">El menu lateral se abrio</string>
+    <string name="drawer_close">El menu lateral se cerro</string>
+
+    <string-array name="list_drawer">
+        <item> </item>
+        <item>Inicio</item>
+        <item>Actividades</item>
+        <item>Información</item>
+        <item>Expertos Participantes</item>
+        <item>Patrocinadores</item>
+        <item>Noticias</item>
+        <item>Premios</item>
+        <item>Mapa</item>
+        <item>Contacto</item>
+
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="InformacionEntrenamiento">Programa integral e intensivo para los participantes,
+                                             donde aprenderán sobre los principales problemas en salud, acercándolos a una visión clínica
+                                              para orientarlos en el diseño e implementación efectiva soluciones móviles.</string>
+
+    <string name="InformacionHackaton">Lugar de encuentro donde los participantes son reunidos con médicos
+                                        locales para compartir ideas e innovar, aplicando inmediatamente los
+                                        conceptos y lecciones en proyectos actuales con equipos multidisciplinarios
+                                        para desarrollar prototipos rápidos y resolver problemas reales.</string>
+
+    <string name="InformacionCursoSana">Espacio colaborativo donde los participantes podrán
+                                        continuar su aprendizaje y compartir ideas de proyectos
+                                        en un ambiente estructurado apoyado por una red global
+                                        de socios académicos. Este curso puede ser tomado por los
+                                        interesados dependiendo de su disponibilidad en SANA</string>
+
+    <string name="InformacionIncubacin">Los proyectos destacados pueden continuar como investigación
+                                o iniciativas de empresas, apoyados por la Corporación Cluster
+                                CreaTIC, mediante su unidad de Incubación y Centro de Desarrollo
+                                Tecnológico. El proceso de incubación iniciará después de la hackathon.</string>
+
+    <string name="InformacionSana">Sana lidera un enfoque para mejorar la salud mundial,
+                            aprovecha la tecnología para superar las limitaciones, impulsa
+                            la mejora de la calidad y promueve la innovación sostenible a nivel local.</string>
+
+    <string name="InformacionMhealth">Promueve la innovación local sostenible en salud, con la cooperación del Microsoft
+                                Mobile Lab Colombia apoyando la creación de contenidos digitales para dispositivos
+                                móviles.</string>
+
+
+    <string name="Sponsor_title">Patrocinadores</string>
+    <string name="aliados_title">Aliados</string>
+
+    <string name="Kenneth_info">Dr. Paik es un científico investigador y
+        profesor en el Instituto de Ingeniería y Ciencias Médicas (IMES)
+        en el MIT. Con amplio conocimiento en medicina, gestión empresarial
+        y estrategia de la tecnología; apasionado por mejorar la calidad de la
+        salud mundial a través del uso de tecnologías innovadoras. Completó su
+        beca postdoctoral en informática biomédica en la Escuela de Medicina de
+        Harvard y el Laboratorio de Ciencias de la Computación en el Hospital General de Massachusetts.</string>
+
+    <string name="Eric_info">Integrante del MIT y líder de Desarrollo de Software de la plataforma de Sana desde 2011 y
+        ha participado en varios hackathons y cursos patrocinados por Sana. Es responsable de la plataforma, incluyendo
+        el Android mobile client, Python/Django middleware, y el módulo OpenMRS basado en Java. Eric ha brindado soporte
+        a diversos proyectos de investigación en varios lugares del mundo, incluyendo Haití, India, Brasil y Argentina.</string>
+
+    <string name="Juan_info">Ingeniero Biomédico del convenio Escuela de Ingeniería de Antioquia y Universidad CES (Medellín,
+        Colombia), estudiante de maestría en Computación Biomédica en la Universidad de Tecnología de Munich (TUM) y Director
+        de Proyectos de la organización Sana Mobile en MIT. Recientemente galardonado como uno de los 35 Innovadores menores
+        de 35 años en Colombia y en el mundo por el MIT Technology Review.</string>
+
+    <string name="Diego_info">Ingeniero en Electrónica y Telecomunicaciones, magíster en Telemática de la Universidad del Cauca
+        y Ph.D. en Ciencias Biomédicas, Área Informática para la Salud, de la Universidad de Regensburg (Alemania). Ha realizado
+        estancias postdoctorales de investigación en esta misma institución, en la Universidad de Toronto (Canadá) y en la Escuela
+        de Salud Pública de la Universidad de Harvard, entre otras instituciones.</string>
+
+</resources>
+

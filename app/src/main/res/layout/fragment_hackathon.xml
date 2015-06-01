@@ -1,0 +1,85 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.pc.mhealth.mhealth.movil.salt.mhealthcolombia.fragments.HackathonFragment">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/header1"
+        android:id="@+id/imageView"
+        android:layout_alignBottom="@+id/imagenEntrenamiento"
+        android:background="@drawable/headershort"/>
+    <ImageView
+        android:id="@+id/imagenEntrenamiento"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:padding="10dp"
+        android:src="@drawable/logohacka1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:layout_height="wrap_content"
+        android:text="Hackaton"
+        android:textColor="#ffff6129"
+        android:gravity="center"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Junio 13 y 14"
+        android:textSize="22sp"
+        android:textColor="#b0000000"
+
+        android:id="@+id/textView"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+
+        android:id="@+id/informacionEntrenamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#b0000000"
+        android:text="@string/InformacionHackaton"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:background="#9afddbcd"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView" />
+
+    <TextView
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="@dimen/tamañoInformacion"
+        android:id="@+id/link_hackaton"
+        android:layout_below="@+id/informacionEntrenamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

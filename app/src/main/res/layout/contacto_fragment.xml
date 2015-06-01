@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="115dp"
+        android:src="@drawable/headershort"
+        android:background="@drawable/headershort"/>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacto"
+        android:textSize="@dimen/TamañoTiulos"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/header"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:textColor="#d2000000"
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Tienes dudas, sugerencias o comentarios?, ¡Háznolas Saber!"
+        android:textSize="@dimen/tamañoInformacion"
+        android:layout_below="@id/header"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/div"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#ffff6129"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/intro"/>
+
+    <EditText
+        android:id="@+id/txt_contenido"
+        android:layout_marginTop="30dp"
+        android:hint="Contenido del mensaje"
+        android:scrollbars="vertical"
+        android:maxLines="4"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="80dp"
+        android:background="#9afddbcd"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/div"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_marginTop="15dp"
+        android:hint="Nombre"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#9afddbcd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_contenido"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_enviarcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff6129"
+        android:textColor="#ffffff"
+        android:text="Enviar"
+        android:layout_below="@id/txt_nombre"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,229 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.pc.mhealth.mhealth.movil.salt.mhealthcolombia.fragments.EricFragment"
+        >
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:background="@drawable/headershort"
+            android:layout_height="70dp"
+            android:src="@drawable/headershort"/>
+
+        <TextView
+            android:id="@+id/titulo"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primer Puesto"
+            android:textSize="33dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="-55dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="3.000.000 COP"
+            android:textSize="20sp"
+            android:textColor="#ffff6129"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Publicidad en Medios Regionales y Nacionales para el Primer Puesto."
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Preparación para Pitch ante Microsoft Ventures."
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Programa de Incubación CreaTIC-SANA Valorado en 20'000.000 COP."
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="20dp"
+            android:text="Acceso Preferencial a la Oferta de CeaTIC Academy."
+            />
+        <ImageView
+            android:id="@+id/header2"
+            android:layout_width="fill_parent"
+            android:background="@drawable/headershort"
+            android:layout_height="70dp"
+            android:src="@drawable/headershort"/>
+
+        <TextView
+            android:id="@+id/titulo2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Segundo Puesto"
+            android:textSize="33dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="-55dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="2.000.000 COP"
+            android:textSize="20sp"
+            android:textColor="#ffff6129"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="BizSpark $750 USD/Mes en Servicios Windows Azure por tres años."
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Programa de Incubación CreaTIC-SANA Valorado en 20'000.000 COP."
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="Acceso Preferencial a la Oferta de CeaTIC Academy."
+            />
+
+        <ImageView
+            android:id="@+id/header3"
+            android:layout_width="fill_parent"
+            android:background="@drawable/headershort"
+            android:layout_height="70dp"
+            android:src="@drawable/headershort"/>
+
+        <TextView
+            android:id="@+id/titulo3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tercer Puesto"
+            android:textSize="33dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="-55dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="1.000.000 COP"
+            android:textSize="20sp"
+            android:textColor="#ffff6129"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="BizSpark $750 USD/Mes en Servicios Windows Azure por 3 años"
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Programa de Incubación CreaTIC-SANA Valorado en 2'000.000 COP."
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:text="Acceso Preferencial a la Oferta de CeaTIC Academy."
+            />
+
+        <ImageView
+            android:id="@+id/header4"
+            android:layout_width="fill_parent"
+            android:background="@drawable/headershort"
+            android:layout_height="100dp"
+            android:src="@drawable/headershort"/>
+
+        <TextView
+            android:id="@+id/titulo4"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mejor aplicación Windows Phone"
+            android:textSize="33dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="-85dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:text="Celular Lumia"
+            android:textSize="20sp"
+            android:textColor="#ffff6129"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="BizSpark $750 USD/Mes en Servicios Windows Azure por tres años"
+            />
+        <TextView
+            android:textColor="#d2000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Acceso Preferencial a la Oferta de CeaTIC Academy."
+            />
+
+    </LinearLayout>
+</ScrollView>

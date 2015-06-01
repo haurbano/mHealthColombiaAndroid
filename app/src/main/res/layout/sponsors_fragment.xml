@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/headershort"
+        android:background="@drawable/headershort"/>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patrocinadores"
+        android:textSize="@dimen/TamañoTiulos"
+        android:textColor="#ffffff"
+        android:layout_marginTop="-60dp"
+        />
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/img_cauca"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cauca"/>
+        <ImageView
+            android:id="@+id/img_cluster"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cluster"/>
+        <ImageView
+            android:id="@+id/img_microsoft"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/micro"/>
+        <ImageView
+            android:id="@+id/img_nucleos"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/nucleo"/>
+        <ImageView
+            android:id="@+id/img_unicauca"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/unicauca"/>
+        </TableRow>
+
+
+
+    <ImageView
+        android:id="@+id/header1"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/headershort"
+        android:background="@drawable/headershort"/>
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aliados"
+        android:textSize="@dimen/TamañoTiulos"
+        android:textColor="#ffffff"
+        android:layout_marginTop="-60dp"
+        />
+
+
+
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:id="@+id/img_acopi"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/acopi"/>
+        <ImageView
+            android:id="@+id/img_sanjose"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sj"/>
+
+        <ImageView
+            android:id="@+id/img_susana"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/susana"/>
+
+    </TableRow>
+
+
+
+
+
+
+
+
+
+
+</TableLayout>
+</ScrollView>

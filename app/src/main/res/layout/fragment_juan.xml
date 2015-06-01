@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.pc.mhealth.mhealth.movil.salt.mhealthcolombia.fragments.EricFragment"
+        >
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/header"
+            android:layout_width="match_parent"
+            android:layout_height="170dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/juan"
+            android:padding="10dp"/>
+
+        <TextView
+            android:textColor="#d2000000"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Juan_info"
+            android:layout_below="@id/header"
+            android:textSize="17sp"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

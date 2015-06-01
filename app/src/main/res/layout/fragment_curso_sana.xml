@@ -1,0 +1,58 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.mhealth.mhealth.movil.salt.mhealthcolombia.fragments.CursoSanaFragment">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/header1"
+        android:id="@+id/imageView"
+        android:background="@drawable/headershort"
+        android:layout_alignBottom="@+id/imagenEntrenamiento" />
+    <ImageView
+        android:id="@+id/imagenEntrenamiento"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:padding="10dp"
+        android:src="@drawable/logosana"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:layout_height="wrap_content"
+        android:text="Curso Sana"
+        android:textColor="#ffff6129"
+        android:gravity="center"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+
+        android:id="@+id/informacionEntrenamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#b0000000"
+        android:text="@string/InformacionCursoSana"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:background="#9afddbcd"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titulo"
+        android:layout_marginBottom="20dp"/>
+
+
+</RelativeLayout>
+</ScrollView>

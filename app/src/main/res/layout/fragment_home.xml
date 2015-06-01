@@ -1,0 +1,66 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fondo">
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.mhealth.mhealth.movil.salt.mhealthcolombia.fragments.HomeFragment"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#mHealthColombia"
+            android:textSize="33sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/logohacka"
+            android:layout_below="@id/title"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Del 8 al 14 de Junio"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/img"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auditorio Asmet Salud"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_below="@id/fecha"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
+</ScrollView>
